@@ -183,7 +183,7 @@ address ul li a:focus:focus {
   cursor: pointer;
   color: var(--two-text-color);
   font-weight: 500;
-  font-family: Roboto;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.63;
