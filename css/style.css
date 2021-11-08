@@ -22,7 +22,7 @@ body {
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -64,6 +64,7 @@ body {
   line-height: 1.37;
   letter-spacing: 0.06em;
   text-align: center;
+  text-transform: uppercase;
 }
 .top-main button {
   color: var(--text-button);
@@ -140,6 +141,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
+  color: var(--three-text-color);
 }
 /* --------------------footer */
 
@@ -166,6 +168,9 @@ address ul li a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+address ul li:nth-child(1) > a {
+  color: #fff;
 }
 address ul li a:hover,
 address ul li a:focus:focus {
